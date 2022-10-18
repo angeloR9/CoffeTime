@@ -7,8 +7,12 @@
     <title>Coffe Time</title> 
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="boton.css">
-    <link rel="stylesheet" href="footer.css">}
-    <link rel="stylesheet" href="tarjetas.css">
+    <link rel="stylesheet" href="footer.css">
+    <style>
+	.ultimo + div{
+		visibility: hidden;
+	}
+</style>
 </head>
 <body>
 
@@ -22,7 +26,7 @@
                 <li><a href="mailto:19402080029246@cecytebc.edu.mx"><i>Contacto</i></a></li>
                 <li><a href="#"><i>Pedidos</i></a></li>
                 <li><a href="http://www.cecytebc.edu.mx"><i>Nosotros</i></a></li>
-                <li><a href="registro.html"><i>Registrate</i></a></li>
+                <li><a href="formulario.php"><i>Registrate</i></a></li>
             </ul>
         </nav>
 
@@ -139,5 +143,7 @@
           </div>
         </div>
       </footer>
+
+      <div class="ultimo"></div>
 </body>
 </html>
